@@ -120,7 +120,6 @@ def turn(board)
   if valid_move?(board, index)
     move(board, index, value = "X")
     display_board(board)
-    over?(board)
   else
     turn(board)
   end
@@ -129,4 +128,8 @@ end
 
 def play(board)
   turn(board)
+  if over?(board) == true
+    puts "Game Over"
+  else turn(board)
+    
 end
