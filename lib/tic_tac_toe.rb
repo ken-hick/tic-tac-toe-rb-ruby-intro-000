@@ -129,7 +129,5 @@ end
 def play(board)
   while over?(board) == false
   turn(board)
-  else
-  return nil
   end
 end
