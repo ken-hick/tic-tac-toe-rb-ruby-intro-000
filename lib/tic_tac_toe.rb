@@ -129,7 +129,8 @@ end
 def play(board)
   turn(board)
   if over?(board) == true
-    break 
+    break
   else
     turn(board)
+  end
 end
