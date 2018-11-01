@@ -131,5 +131,5 @@ def play(board)
   if over?(board) == true
     puts "Game Over"
   else turn(board)
-    
+  end
 end
