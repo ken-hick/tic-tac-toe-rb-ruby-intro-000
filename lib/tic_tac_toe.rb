@@ -128,5 +128,5 @@ end
 
 def play(board)
   turn(board)
-break
+  over?(board)
 end
