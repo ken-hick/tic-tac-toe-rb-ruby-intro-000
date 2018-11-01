@@ -127,10 +127,9 @@ end
 
 
 def play(board)
-  counter = 0
-  until counter == 9 do
-    turn(board)
-    counter += 1
+  if over?(board) == false
+  turn(board)
+  else
+  return nil
   end
-  over?(board)
 end
