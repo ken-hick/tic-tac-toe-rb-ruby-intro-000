@@ -123,6 +123,7 @@ def turn(board)
   else
     turn(board)
   end
+  over?(board)
 end
 
 
