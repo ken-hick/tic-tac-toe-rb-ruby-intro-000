@@ -129,5 +129,6 @@ end
 def play(board)
   while over?(board) == false
   turn(board)
+  current_player(board)
   end
 end
